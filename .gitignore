@@ -41,6 +41,16 @@ wheels/
 *.db
 *.sqlite
 *.sqlite3
+data/*.sqlite
+data/*.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Scratch & Temporary
+tmp/
 
 # IDE
 .vscode/
